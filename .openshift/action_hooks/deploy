@@ -1,5 +1,7 @@
 #!/bin/bash
 # Run composer install
 
+unset GIT_DIR
 cd $OPENSHIFT_REPO_DIR
+wget -qN http://getcomposer.org/composer.phar
 php composer.phar update
