@@ -1,0 +1,550 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "25b89d8acf295ec2ae3419afd6121f8b",
+    "packages": [
+        {
+            "name": "cloudinary/cloudinary_php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cloudinary/cloudinary_php.git",
+                "reference": "514c6a8d3aa87f6a54d559727b68b7decd882a4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/514c6a8d3aa87f6a54d559727b68b7decd882a4c",
+                "reference": "514c6a8d3aa87f6a54d559727b68b7decd882a4c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ],
+                "files": [
+                    "src/Helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cloudinary",
+                    "homepage": "https://github.com/cloudinary/cloudinary_php/graphs/contributors"
+                }
+            ],
+            "description": "Cloudinary PHP SDK",
+            "homepage": "https://github.com/cloudinary/cloudinary_php",
+            "keywords": [
+                "cdn",
+                "cloud",
+                "cloudinary",
+                "image management",
+                "sdk"
+            ],
+            "time": "2014-11-02 14:32:33"
+        },
+        {
+            "name": "composer/installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "22208fc1360014587cfbc95d78d7aab8f25a6889"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/22208fc1360014587cfbc95d78d7aab8f25a6889",
+                "reference": "22208fc1360014587cfbc95d78d7aab8f25a6889",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2014-11-27 19:24:51"
+        },
+        {
+            "name": "facebook/php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/facebook-php-sdk.git",
+                "reference": "3388ec541761b93651614b48766608c22daad981"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/facebook-php-sdk/zipball/3388ec541761b93651614b48766608c22daad981",
+                "reference": "3388ec541761b93651614b48766608c22daad981",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/facebook-php-sdk/contributors"
+                }
+            ],
+            "description": "Facebook PHP SDK",
+            "homepage": "https://github.com/facebook/facebook-php-sdk",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "time": "2014-06-19 19:18:38"
+        },
+        {
+            "name": "fuelphp/upload",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuelphp/upload.git",
+                "reference": "68bfab6f732af326ff0b364b996b15c250014a8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuelphp/upload/zipball/68bfab6f732af326ff0b364b996b15c250014a8b",
+                "reference": "68bfab6f732af326ff0b364b996b15c250014a8b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Fuel\\Upload": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "Uploaded file processing.",
+            "homepage": "https://github.com/fuelphp/upload",
+            "keywords": [
+                "file uploads",
+                "upload"
+            ],
+            "time": "2013-08-15 21:55:11"
+        },
+        {
+            "name": "mashape/unirest-php",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mashape/unirest-php.git",
+                "reference": "ff13801b7bc06a635054b3674a02588bd7d48be5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/ff13801b7bc06a635054b3674a02588bd7d48be5",
+                "reference": "ff13801b7bc06a635054b3674a02588bd7d48be5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "vierbergenlars/simpletest": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Unirest": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mashape",
+                    "email": "support@mashape.com",
+                    "homepage": "http://mashape.com"
+                }
+            ],
+            "description": "Unirest PHP",
+            "homepage": "https://github.com/Mashape/unirest-php",
+            "keywords": [
+                "client",
+                "curl",
+                "http",
+                "rest"
+            ],
+            "time": "2014-04-05 23:28:21"
+        },
+        {
+            "name": "monga/monga",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FrenkyNet/Monga.git",
+                "reference": "8dad98b6a7aba010784180ed02d191ea8e19e4cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FrenkyNet/Monga/zipball/8dad98b6a7aba010784180ed02d191ea8e19e4cb",
+                "reference": "8dad98b6a7aba010784180ed02d191ea8e19e4cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Monga": "src/"
+                },
+                "files": [
+                    "src/Monga.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "frank@ku.nl"
+                }
+            ],
+            "description": "MongoDB Abstraction Layer",
+            "homepage": "https://github.com/FrenkyNet/Monga",
+            "keywords": [
+                "mongodb"
+            ],
+            "abandoned": "php-loep/monga",
+            "time": "2014-04-15 07:17:24"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "583618d5cd2115a52101694aca87afb182b3e567"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/583618d5cd2115a52101694aca87afb182b3e567",
+                "reference": "583618d5cd2115a52101694aca87afb182b3e567",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "doctrine/couchdb": "dev-master",
+                "mlehner/gelf-php": "1.0.*",
+                "raven/raven": "0.3.*"
+            },
+            "suggest": {
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "raven/raven": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Monolog": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2013-04-23 10:09:48"
+        },
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "a78d6504ff5d4367497785ab2ade91db3a9fbe11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/a78d6504ff5d4367497785ab2ade91db3a9fbe11",
+                "reference": "a78d6504ff5d4367497785ab2ade91db3a9fbe11",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2014-01-18 15:33:09"
+        },
+        {
+            "name": "sendgrid/sendgrid",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sendgrid/sendgrid-php.git",
+                "reference": "4899267531645d970675edc446f03fef20a5a931"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sendgrid/sendgrid-php/zipball/4899267531645d970675edc446f03fef20a5a931",
+                "reference": "4899267531645d970675edc446f03fef20a5a931",
+                "shasum": ""
+            },
+            "require": {
+                "mashape/unirest-php": "1.2.1",
+                "php": ">=5.3",
+                "sendgrid/smtpapi": "0.0.1"
+            },
+            "replace": {
+                "sendgrid/sendgrid-php": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "vlucas/phpdotenv": "1.0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SendGrid": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This library allows you to quickly and easily send emails through SendGrid using PHP.",
+            "homepage": "http://github.com/sendgrid/sendgrid-php",
+            "keywords": [
+                "email",
+                "grid",
+                "send",
+                "sendgrid"
+            ],
+            "time": "2014-04-18 17:23:19"
+        },
+        {
+            "name": "sendgrid/smtpapi",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sendgrid/smtpapi-php.git",
+                "reference": "3ff7a7bba3b0483a839fbe26227d3d514a94d55c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sendgrid/smtpapi-php/zipball/3ff7a7bba3b0483a839fbe26227d3d514a94d55c",
+                "reference": "3ff7a7bba3b0483a839fbe26227d3d514a94d55c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "replace": {
+                "sendgrid/smtpapi-php": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Smtpapi": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Build SendGrid X-SMTPAPI headers in PHP.",
+            "homepage": "http://github.com/sendgrid/smtpapi-php",
+            "keywords": [
+                "X-SMTP",
+                "api",
+                "email",
+                "grid",
+                "send",
+                "sendgrid",
+                "smtp",
+                "smtpapi",
+                "xsmtp"
+            ],
+            "time": "2014-01-01 01:37:15"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "monga/monga": 20,
+        "facebook/php-sdk": 20,
+        "cloudinary/cloudinary_php": 20
+    },
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}
