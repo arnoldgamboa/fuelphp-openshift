@@ -2,4 +2,4 @@
 # Run composer install
 
 cd $OPENSHIFT_REPO_DIR
-php composer.phar install
+php composer.phar update
