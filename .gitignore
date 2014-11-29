@@ -1,2 +1,3 @@
 fuel/vendor
 fuel/app/logs/*
+composer.phar
