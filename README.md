@@ -25,4 +25,4 @@ $ curl -s https://getcomposer.org/installer | php -- --install-dir=./
 $ php composer.phar install
 ```
 
-- .gitignore lists all the files and directories that needs to be ignored so that the composer 
+- .gitignore lists all the files and directories that needs to be ignored so that the composer would run without errors on OpenShift
