@@ -4,8 +4,7 @@
 
 Run this command on your shell.
 
-```sh
-$ rhc app create fuelphpopenshift php-5.3 --from-code=https://github.com/arnoldgamboa/fuelphp-openshift.git
+> $ rhc app create fuelphpopenshift php-5.3 --from-code=https://github.com/arnoldgamboa/fuelphp-openshift.git
 
 
 where: "fuelphpopenshift" is your app name.
@@ -20,8 +19,7 @@ A few notes about this repo
 
 3. On your local script folder, you need to run the composer:
 
-```sh
-$ curl -s https://getcomposer.org/installer | php -- --install-dir=./
+> $ curl -s https://getcomposer.org/installer | php -- --install-dir=./
 $ php composer.phar install
 
 4. .gitignore lists all the files and directories that needs to be ignored so that the composer 
