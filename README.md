@@ -1,4 +1,4 @@
-# Installing PHP 5.3 on OpenShift
+# Installing PHP 5.3 at OpenShift
 
 (This assumes you already have OpenShift's CLI tools. [Here's how to get started with OpenShift](https://developers.openshift.com/en/getting-started-overview.html))
 
