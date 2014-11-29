@@ -27,7 +27,7 @@ else
     echo !!! vendor directory already exists - skipping symlink...
 fi
 
-// shortened for brevity, but the rest is the same.
+#shortened for brevity, but the rest is the same.
 
 # use composer install
 ( unset GIT_DIR ; cd $OPENSHIFT_REPO_DIR ; /usr/bin/php $OPENSHIFT_DATA_DIR/composer.phar install )
