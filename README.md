@@ -1,39 +1,27 @@
-#FuelPHP
+# Installing PHP 5.3 to OpenShift
 
-* Version: 1.7.2
-* [Website](http://fuelphp.com/)
-* [Release Documentation](http://docs.fuelphp.com)
-* [Release API browser](http://api.fuelphp.com)
-* [Development branch Documentation](http://dev-docs.fuelphp.com)
-* [Development branch API browser](http://dev-api.fuelphp.com)
-* [Support Forum](http://fuelphp.com/forums) for comments, discussion and community support
+(This assumes you already have OpenShift's CLI tools. [Here's how to get started with OpenShift](https://developers.openshift.com/en/getting-started-overview.html))
 
-## Description
+Run this command on your shell.
 
-FuelPHP is a fast, lightweight PHP 5.3 framework. In an age where frameworks are a dime a dozen, We believe that FuelPHP will stand out in the crowd.  It will do this by combining all the things you love about the great frameworks out there, while getting rid of the bad.
+```sh
+$ rhc app create fuelphpopenshift php-5.3 --from-code=https://github.com/arnoldgamboa/fuelphp-openshift.git
 
-## More information
 
-For more detailed information, see the [development wiki](https://github.com/fuelphp/fuelphp/wiki).
+where: "fuelphpopenshift" is your app name.
 
-##Development Team
+That's it! You should see it run and install your app.
 
-* Harro Verton - Project Manager, Developer ([http://wanwizard.eu/](http://wanwizard.eu/))
-* Frank de Jonge - Developer ([http://frenky.net/](http://frenky.net/))
-* Steve West - Developer
+A few notes about this repo
+---------------------------
+1. This version of FuelPHP 1.7.2 intentionally omits the fuel/vendors directory for a reason.
 
-### Want to join?
+2. The .openshift/action_hooks/post_deploy file runs the needed composer command automatically upon deploy.
 
-The FuelPHP development team is always looking for new team members, who are willing
-to help lift the framework to the next level, and have the commitment to not only
-produce awesome code, but also great documentation, and support to our users.
+3. On your local script folder, you need to run the composer:
 
-You can not apply for membership. Start by sending in pull-requests, work on outstanding
-feature requests or bugs, and become active in the #fuelphp IRC channel. If your skills
-are up to scratch, we will notice you, and will ask you to become a team member.
+```sh
+$ curl -s https://getcomposer.org/installer | php -- --install-dir=./
+$ php composer.phar install
 
-### Alumni
-
-* Jelmer Schreuder - Developer ([http://jelmerschreuder.nl/](http://jelmerschreuder.nl/))
-* Phil Sturgeon - Developer ([http://philsturgeon.co.uk](http://philsturgeon.co.uk))
-* Dan Horrigan - Founder, Developer ([http://dhorrigan.com](http://dhorrigan.com))
+4. .gitignore lists all the files and directories that needs to be ignored so that the composer 
