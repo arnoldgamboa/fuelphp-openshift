@@ -1,7 +1,8 @@
 repo_name: arnoldgamboa/fuelphp-openshift
 report_id: 972034882ebf8cc6eb46a24b6ea21185
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T04:03:36+00:00'
+timestamp: '2024-01-05T09:00:34+00:00'
 requested_by: arnoldgamboa
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1208/download.png
+  detection_source_url: https://github.com/arnoldgamboa/fuelphp-openshift
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -26,7 +28,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source: docs/assets/js/combined.js
+  detection_source_url: https://github.com/arnoldgamboa/fuelphp-openshift/blob/master/assets/js/bootstrap.js
+  detection_source: assets/js/bootstrap.js
   last_updated_by: Arnold Gamboa
   last_updated_on: 2014-11-28 22:45:33.000000000 Z
 - name: PHP
@@ -38,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/arnoldgamboa/fuelphp-openshift
   detection_source: Repo Metadata
 - name: MongoDB
   description: The database for giant ideas
@@ -47,6 +51,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/arnoldgamboa/fuelphp-openshift/blob/master/fuel/core/classes/mongo/db.php
   detection_source: fuel/core/classes/mongo/db.php
   last_updated_by: Arnold Gamboa
   last_updated_on: 2014-11-28 22:45:33.000000000 Z
@@ -58,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/arnoldgamboa/fuelphp-openshift
   detection_source: Repo Metadata
 - name: Twilio SendGrid
   description: Email Delivery. Simplified.
@@ -67,6 +73,7 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/arnoldgamboa/fuelphp-openshift/blob/master/composer.json
   detection_source: composer.json
   last_updated_by: Arnold Gamboa
   last_updated_on: 2014-11-28 22:45:33.000000000 Z
@@ -75,6 +82,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source_url: https://github.com/arnoldgamboa/fuelphp-openshift/blob/master/composer.json
   detection_source: composer.json
   last_updated_by: Arnold Gamboa
   last_updated_on: 2014-11-28 22:45:33.000000000 Z
@@ -87,4 +95,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/arnoldgamboa/fuelphp-openshift
   detection_source: Repo Metadata
